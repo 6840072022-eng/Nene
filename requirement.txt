@@ -1,6 +1,6 @@
 streamlit
 pandas
-beautifulsoup
+beautifulsoup4
 requests
 openai
 google-genai
