@@ -262,7 +262,7 @@ Passage:
     st.info("Processing with Gemini…")
 
     try:
-        output = gemini_generate(api_key, "gemini-2.0-flash", prompt)
+        output = gemini_generate(api_key, "gemini-1.5-pro", prompt)
         st.success("Done!")
 
         # ======================================
@@ -311,4 +311,3 @@ Passage:
 
     except Exception as e:
         st.error(f"Error: {e}")
-
